@@ -1,0 +1,14 @@
+C:\Users\alexb\WorkSpaces\GuessingGame\HighLowGame\bin\Debug\net8.0\HighLowGame.exe
+C:\Users\alexb\WorkSpaces\GuessingGame\HighLowGame\bin\Debug\net8.0\HighLowGame.deps.json
+C:\Users\alexb\WorkSpaces\GuessingGame\HighLowGame\bin\Debug\net8.0\HighLowGame.runtimeconfig.json
+C:\Users\alexb\WorkSpaces\GuessingGame\HighLowGame\bin\Debug\net8.0\HighLowGame.dll
+C:\Users\alexb\WorkSpaces\GuessingGame\HighLowGame\bin\Debug\net8.0\HighLowGame.pdb
+C:\Users\alexb\WorkSpaces\GuessingGame\HighLowGame\obj\Debug\net8.0\HighLowGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexb\WorkSpaces\GuessingGame\HighLowGame\obj\Debug\net8.0\HighLowGame.AssemblyInfoInputs.cache
+C:\Users\alexb\WorkSpaces\GuessingGame\HighLowGame\obj\Debug\net8.0\HighLowGame.AssemblyInfo.cs
+C:\Users\alexb\WorkSpaces\GuessingGame\HighLowGame\obj\Debug\net8.0\HighLowGame.csproj.CoreCompileInputs.cache
+C:\Users\alexb\WorkSpaces\GuessingGame\HighLowGame\obj\Debug\net8.0\HighLowGame.dll
+C:\Users\alexb\WorkSpaces\GuessingGame\HighLowGame\obj\Debug\net8.0\refint\HighLowGame.dll
+C:\Users\alexb\WorkSpaces\GuessingGame\HighLowGame\obj\Debug\net8.0\HighLowGame.pdb
+C:\Users\alexb\WorkSpaces\GuessingGame\HighLowGame\obj\Debug\net8.0\HighLowGame.genruntimeconfig.cache
+C:\Users\alexb\WorkSpaces\GuessingGame\HighLowGame\obj\Debug\net8.0\ref\HighLowGame.dll

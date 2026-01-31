@@ -1,0 +1,2 @@
+C:\Users\alexb\WorkSpaces\GuessingGame\HighLowGame\publish\HighLowGame.pdb
+C:\Users\alexb\WorkSpaces\GuessingGame\HighLowGame\publish\HighLowGame.exe
