@@ -36,7 +36,7 @@ A "doofus move" is any of the following:
 
 ## Test Results Summary
 
-### Overall Status: ✅ **ALL TESTS PASSING**
+### Overall Status:  **ALL TESTS PASSING**
 
 - **Total Tests**: 82
 - **Passed**: 82
@@ -49,70 +49,70 @@ A "doofus move" is any of the following:
 
 ### 1. InputValidatorTests (15 tests)
 Validates user input handling:
-- ✅ Valid number parsing (1-10)
-- ✅ Whitespace trimming
-- ✅ Null/empty/whitespace rejection
-- ✅ Non-numeric input rejection
-- ✅ Out-of-range validation (0, negatives, >10)
+-  Valid number parsing (1-10)
+-  Whitespace trimming
+-  Null/empty/whitespace rejection
+-  Non-numeric input rejection
+-  Out-of-range validation (0, negatives, >10)
 
 ### 2. DoofusCheckerTests (8 tests)
 Tests doofus detection logic:
-- ✅ Valid guesses within bounds
-- ✅ Boundary conditions (at low/high bound)
-- ✅ Detecting guesses below low bound
-- ✅ Detecting guesses above high bound
-- ✅ Detecting repeated last guess
-- ✅ Detecting repeated older guesses
+-  Valid guesses within bounds
+-  Boundary conditions (at low/high bound)
+-  Detecting guesses below low bound
+-  Detecting guesses above high bound
+-  Detecting repeated last guess
+-  Detecting repeated older guesses
 
 ### 3. GuessProcessorTests (15 tests)
 Tests core game logic:
-- ✅ Correct guess handling
-- ✅ Too low/too high with bound updates
-- ✅ Doofus streak management
-- ✅ Guess history tracking
-- ✅ Boundary narrowing logic
-- ✅ Doofus moves don't count toward valid guess limit
+-  Correct guess handling
+-  Too low/too high with bound updates
+-  Doofus streak management
+-  Guess history tracking
+-  Boundary narrowing logic
+-  Doofus moves don't count toward valid guess limit
 
 ### 4. GameStateTests (11 tests)
 Tests state management:
-- ✅ Initialization with correct defaults
-- ✅ Secret number generation (1-10 range)
-- ✅ Reset functionality
-- ✅ State property modifications
+-  Initialization with correct defaults
+-  Secret number generation (1-10 range)
+-  Reset functionality
+-  State property modifications
 
 ### 5. IntegrationTests (33 tests)
 Tests full game scenarios:
-- ✅ Complete game flows from requirements
-- ✅ Input validation integration
-- ✅ 5-guess limit enforcement
-- ✅ Doofus kick scenarios (3 consecutive)
-- ✅ Boundary narrowing throughout game
-- ✅ Complex scenarios (e.g., 2 doofus → valid → 1 doofus = not kicked)
-- ✅ Edge cases from CLAUDE.md requirements
+-  Complete game flows from requirements
+-  Input validation integration
+-  5-guess limit enforcement
+-  Doofus kick scenarios (3 consecutive)
+-  Boundary narrowing throughout game
+-  Complex scenarios (e.g., 2 doofus → valid → 1 doofus = not kicked)
+-  Edge cases from CLAUDE.md requirements
 
 ---
 
 ## Key Test Scenarios Verified
 
 ### Input Validation
-- ✅ "abc" → Error: "That's not a number!"
-- ✅ "0" → Error: "Pick a number between 1 and 10!"
-- ✅ "11" → Error: "Pick a number between 1 and 10!"
-- ✅ "  5  " → Valid (whitespace trimmed)
-- ✅ "" → Error: "Please enter something!"
+-  "abc" → Error: "That's not a number!"
+-  "0" → Error: "Pick a number between 1 and 10!"
+-  "11" → Error: "Pick a number between 1 and 10!"
+-  "  5  " → Valid (whitespace trimmed)
+-  "" → Error: "Please enter something!"
 
 ### Doofus Detection
-- ✅ Guessing 3 when you know it's > 5 → Doofus strike
-- ✅ Guessing same number 3x in a row → Kicked
-- ✅ Guessing 5, then 3 (when answer > 5), then 2 → Kicked (3 doofus in a row)
-- ✅ 2 doofus moves, then 1 valid, then 1 doofus → NOT kicked (streak reset)
+-  Guessing 3 when you know it's > 5 → Doofus strike
+-  Guessing same number 3x in a row → Kicked
+-  Guessing 5, then 3 (when answer > 5), then 2 → Kicked (3 doofus in a row)
+-  2 doofus moves, then 1 valid, then 1 doofus → NOT kicked (streak reset)
 
 ### Game Flow
-- ✅ User guesses correct on first try
-- ✅ User narrows down and wins
-- ✅ User uses all 5 guesses without winning
-- ✅ User wins on exactly 5th guess
-- ✅ Doofus moves don't count toward guess limit
+-  User guesses correct on first try
+-  User narrows down and wins
+-  User uses all 5 guesses without winning
+-  User wins on exactly 5th guess
+-  Doofus moves don't count toward guess limit
 
 ---
 
